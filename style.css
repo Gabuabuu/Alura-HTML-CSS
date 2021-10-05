@@ -211,3 +211,15 @@ form label, form legend {
     font-size: 2em;
     margin: 1em 0 1em;
 }
+
+.principal p {
+	margin: 0 0 1em;
+}
+
+.principal strong {
+	font-weight: bold;
+}
+
+.principal em {
+	font-style: italic;
+}
