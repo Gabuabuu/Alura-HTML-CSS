@@ -161,6 +161,10 @@ td, th {
 	clear: left;
 }
 
+.titulo-principal:first-letter {
+	font-weight: bold;
+}
+
 .principal {
 	padding: 3em 0;
 	background: #FEFEFE;
@@ -225,6 +229,10 @@ td, th {
 	font-weight: bold;
 } /*nth-child, pega o elemento dado entre parenteses e aplica caracteristica
     first -      -  -   primeiro elemento            -      -     - */
+
+.itens:before {
+	content: "★";
+}
 
 .imagem-beneficios {
 	width: 60%;
