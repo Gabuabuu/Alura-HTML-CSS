@@ -6,4 +6,12 @@
 - `CSS`
 - `HTML`
 
-![Como executar o projeto](#pré-requisitos)
+## Como executar o projeto
+
+ Primeiro baixe ou clone este repositório no seu computador, caso você tenha baixado o arquivo, extraia os arquivos compactados para alguma pasta e em seguida abra a pasta no seu Visual Studio Code(VsCode) ou no Sublime Text(Onde todo esse projeto foi desenvolvido).
+
+ Depois disso, abra o arquivo `INDEX.HTML` no seu navegador e pronto.
+
+## Posso modificar esse código do meu jeito?
+
+Sim, você fazer qualquer alteração neste código e distruibuir. Recomendo que você faça um `Fork` deste repositório.
