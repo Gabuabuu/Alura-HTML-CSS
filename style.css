@@ -236,9 +236,69 @@ td, th {
 
 .imagem-beneficios {
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 5px #000000;
+}
+
+.imagem-beneficios:hover {
+	opacity: 0.3;
 }
 
 .video{
 	width: 560px;
 	margin: 2em auto;
+}
+
+/*img ~ p{
+	font-weight: bold;
+} seletor avançado*/
+
+/*.principal p:not(#missao) {
+	background: orange;
+} seleciona todos os paragráfos, exceto o #missao*/
+
+@media screen and (max-width: 480px) {
+	/*css index*/
+	.principal, .mapa, .beneficios {
+		padding: 2em;
+	}
+	.caixa, .principal-conteudo, .mapa-conteudo, .conteudo-beneficios, .video {
+		width: auto;
+	}
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+		text-align: center;
+	}
+
+	.lista-beneficios, .imagem-beneficios {
+		width: 100%;
+	}
+
+	/*css produtos*/
+	.produtos {
+		width: 100%;
+		padding: 0;
+	}
+	.produtos li {
+		display: block;
+		width: 90%;
+		margin: 2em auto;
+	}
+
+	/*css contato*/
+	.conteudo-main {
+		width: auto;
+		margin: 2em;
+	}
+	.input-padrao {
+		width: 90%;
+	}
+	.enviar {
+		width: 100%;
+	}
 }
