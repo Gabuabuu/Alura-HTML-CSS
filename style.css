@@ -259,46 +259,19 @@ td, th {
 } seleciona todos os paragráfos, exceto o #missao*/
 
 @media screen and (max-width: 480px) {
-	/*css index*/
-	.principal, .mapa, .beneficios {
-		padding: 2em;
-	}
-	.caixa, .principal-conteudo, .mapa-conteudo, .conteudo-beneficios, .video {
+	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
 		width: auto;
 	}
+
 	h1 {
 		text-align: center;
 	}
 
 	nav {
 		position: static;
-		text-align: center;
 	}
 
 	.lista-beneficios, .imagem-beneficios {
-		width: 100%;
-	}
-
-	/*css produtos*/
-	.produtos {
-		width: 100%;
-		padding: 0;
-	}
-	.produtos li {
-		display: block;
-		width: 90%;
-		margin: 2em auto;
-	}
-
-	/*css contato*/
-	.conteudo-main {
-		width: auto;
-		margin: 2em;
-	}
-	.input-padrao {
-		width: 90%;
-	}
-	.enviar {
 		width: 100%;
 	}
 }
