@@ -1,37 +1,77 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width">
 
-You can use the [editor on GitHub](https://github.com/XxGabyDNxX/Alura-HTML-CSS/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+		<title>Barbearia Alura</title>
+	    <link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+	</head>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+	<body>
+		<header>
+			<div class="caixa">
+				<h1><img src="logo.png"></h1>
 
-### Markdown
+				<nav>
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<img class="banner" src="banner.jpg">
+		<main>
+			<section class="principal">
+				<h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+				<img class="utensilios" src="utensilios.jpg" alt="Utensílios de um barbeiro."/>
+		 
+				<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
 
-```markdown
-Syntax highlighted code block
+				<p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
 
-# Header 1
-## Header 2
-### Header 3
+				<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+			</section>
 
-- Bulleted
-- List
+			<section class="mapa">
+				<h3 class="titulo-principal">Nosso estabelecimento</h3>
+				 <p>Nosso estabelecimento está localizado no coração da cidade.</p>
 
-1. Numbered
-2. List
+				 <div class="mapa-conteudo">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29255.217053264638!2d-46.6649248!3d-23.5719582!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1635034679957!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+				  </div>
 
-**Bold** and _Italic_ and `Code` text
+			</section>
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+			<section class="beneficios">
+				<h3 class="titulo-principal">Benefícios</h3>
 
-### Jekyll Themes
+				<div class="conteudo-beneficios">
+					<ul class="lista-beneficios">
+						<li class="itens">Atendimento aos Clientes</li>
+						<li class="itens">Espaço diferenciado</li>
+						<li class="itens">Localização</li>
+						<li class="itens">Profissionais Qualificados</li>
+						<li class="itens">Pontualidade</li>
+					    <li class="itens">Limpeza</li>
+					</ul><img src="beneficios.jpg" class="imagem-beneficios">
+			   </div>
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/XxGabyDNxX/Alura-HTML-CSS/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+				<div class="video">
+					<iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+		</main>
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+		<footer>
+			<img src="logo-branco.png">
+			<p class="copyright">&copy; Copyright Barbearia Alura - 2019</p>
+		</footer>
+	</body>
+</html>
