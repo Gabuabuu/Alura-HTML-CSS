@@ -80,7 +80,7 @@ nav a:hover {
 
 footer {
 	text-align: center;
-	background: url("bg.jpg");
+	background: url("../images/bg.jpg");
 	padding: 40px 0;
 }
 
@@ -91,7 +91,7 @@ footer {
 }
 
 main {
-
+  
 }
 
 form {
@@ -260,19 +260,51 @@ td, th {
 
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-		width: auto;
+		width: 100%;
+	}
+	
+	#logo {
+	  width: 50%;
+	  height: 8em
 	}
 
 	h1 {
 		text-align: center;
 	}
-
+	
 	nav {
 		position: static;
+	} /*NAVEGATION*/
+	
+	nav ul {
+	  display: flex;
+	  background: red;
 	}
+	
 
 	.lista-beneficios, .imagem-beneficios {
 		width: 100%;
+		box-shadow: none;
+	}
+	
+	.banner {
+	  width: 100%;
+	  margin-top: 10px;
+	  height: 200px
+	}
+	
+	.titulo-principal {
+	  width: 100%;
+	  text-align: center;
+	}
+	
+	.utensilios {
+	  width: 10em
+	}
+	
+	#missao {
+	  text-align: center;
+	  
 	}
 	
 }
